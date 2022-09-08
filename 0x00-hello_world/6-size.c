@@ -5,13 +5,13 @@ int main()
 	int intType;
 	long longType;
 	long long longlongType;
-	float floatType;
+	float floatdType;
 
 	// sizeof evaluates the size of a variable
-	printf("Size char: %zu byte(s)\n", sizeof(charType));
-	printf("Size int: %zu byte(s)\n", sizeof(intType));
-	printf("Size long int: %zu byte(s)\n", sizeof(longType));
-	printf("Size long long int: %zu byte(s)\n", sizeof(longlongType));
-	printf("Size float: %zu byte(s)\n", sizeof(floatType));
+	printf("Size char: %zu byte(s)\n", sizeof(char));
+	printf("Size int: %zu byte(s)\n", sizeof(int));
+	printf("Size long int: %zu byte(s)\n", sizeof(long));
+	printf("Size long long int: %zu byte(s)\n", sizeof(longlong));
+	printf("Size float: %zu byte(s)\n", sizeof(float));
 	return (0);
 }
