@@ -7,7 +7,7 @@
  *
  * Return: Allways 0 (Success)
  */
-int main() 
+int main(void) 
 {
 	// sizeof evaluates the size of a variable
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
