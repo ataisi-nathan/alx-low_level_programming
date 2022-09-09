@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * The main function prints "with proper grammar, but the outcome is a piece of art,
- * and then returns 0 on a new line
+ * main - prints "with proper grammar, but the outcome is a piece of art,
+ * Return - returns 0 and ends the program
  */
 int main(void)
 {
