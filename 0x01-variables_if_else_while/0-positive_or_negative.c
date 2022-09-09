@@ -5,7 +5,7 @@
 /**
  * main - Starting Point
  *
- * Description: print a random nine digit integer 
+ * Description: print a random nine digit integer
  * either positive or negative
  *
  * Return: Always return 0
@@ -15,6 +15,7 @@ int main(void)
 {
 	int n;
 	srand(time(0));
+	
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
