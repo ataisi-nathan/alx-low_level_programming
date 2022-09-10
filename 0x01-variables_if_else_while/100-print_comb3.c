@@ -13,9 +13,9 @@ int right = 48;
 while (right < 58)
 {
 left = 48;
-while (left<58)
+while (left < 58)
 {
-if (right<left && right != left)
+if (right < left && right != left)
 {
 putchar(right);
 putchar(left);
