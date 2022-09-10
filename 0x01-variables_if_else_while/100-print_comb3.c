@@ -7,31 +7,29 @@
 int main(void)
 
 {
-int number_left;
-int number_right;
+int left = 48;
+int right = 48;
 
-
-for (number_left = 48; number_right <= 78; number_left++)
+while (right < 58)
 {
-for (number_right = number_left + 1 ; number_right <= 78; number_right++)
+left = 48;
+while (left<58)
 {
-
-putchar(number_left);
-putchar (number_right);
-
-
-if ((number_left == 56) && (number_right == 78))
+if (right<left && right != left)
+{
+putchar(right);
+putchar(left);
+if (left == 57 && right == 56)
 {
 break;
 }
-
 putchar(',');
-putchar (' ');
-
+putchar(' ');
 }
-
+left++;
 }
-
+right++;
+}
 putchar('\n');
 
 
