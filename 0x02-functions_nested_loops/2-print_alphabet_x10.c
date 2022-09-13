@@ -12,7 +12,6 @@ int round = 0;
 char letter = 'a';
     
 while (round < 10)
-{
 letter = 'a';
 while (letter <= 'z')
 {
