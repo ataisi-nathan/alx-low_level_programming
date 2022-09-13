@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - Prints lower case alphabet 10 times
  *
- * Return: Return 0
+ * Return: void
  */
 
 void print_alphabet_x10(void)
@@ -22,4 +22,3 @@ _putchar('\n');
 
 round++;
 }
-Return 0
