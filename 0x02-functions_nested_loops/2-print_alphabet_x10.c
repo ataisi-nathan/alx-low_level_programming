@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void print_alphabet_x10(void)
+int main (void)
 {
 int round = 0;
 char letter = 'a';
@@ -15,8 +15,8 @@ while (round < 10)
 letter = 'a';
 while (letter <= 'z')
 {
-_putchar(letter);
-letter++;
+    print_alphabet_x10("%c", ch);
+    ch++;
 }
 _putchar('\n');
 
