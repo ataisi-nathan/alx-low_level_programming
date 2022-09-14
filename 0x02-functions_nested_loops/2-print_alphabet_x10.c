@@ -21,4 +21,6 @@ letter++;
 _putchar('\n');
 
 round++;
+
+return 0;
 }
