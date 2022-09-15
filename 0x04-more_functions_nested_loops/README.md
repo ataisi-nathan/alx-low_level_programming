@@ -1,12 +1,10 @@
 0 - Write a function that checks for uppercase character.
-
 Prototype: int _isupper(int c);
 Returns 1 if c is uppercase
 Returns 0 otherwise
 FYI: The standard library provides a similar function: isupper. Run man isupper to learn more.
 
 1 - Write a function that checks for a digit (0 through 9).
-
 Prototype: int _isdigit(int c);
 Returns 1 if c is a digit
 Returns 0 otherwise
@@ -42,3 +40,10 @@ You can only use _putchar function to print
 Where n is the number of times the character \ should be printed
 The diagonal should end with a \n
 If n is 0 or less, the function should only print a \n
+
+8 - Write a function that prints a square, followed by a new line.
+Prototype: void print_square(int size);
+You can only use _putchar function to print
+Where size is the size of the square
+If size is 0 or less, the function should print only a new line
+Use the character # to print the square
