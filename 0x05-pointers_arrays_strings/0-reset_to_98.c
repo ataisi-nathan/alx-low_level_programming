@@ -8,5 +8,9 @@
 
 void reset_to_98(int *n)
 {
+<<<<<<< HEAD
 	*n = 98;
+=======
+    *n = 98;
+>>>>>>> 2d9e7cd8a7aed68b1d07ff6e932d842ebe5d0bb5
 }
